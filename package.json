@@ -1,0 +1,29 @@
+{
+  "name": "restaurantpage",
+  "version": "1.0.0",
+  "description": "A Restaurant Page",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "webpack-cli": "^3.3.12",
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lockyboss1/restaurantPage.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "webpack"
+  ],
+  "author": "Sonuga Ayomide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lockyboss1/restaurantPage/issues"
+  },
+  "homepage": "https://github.com/lockyboss1/restaurantPage#readme"
+}
