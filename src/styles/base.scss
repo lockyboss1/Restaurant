@@ -1,0 +1,33 @@
+$font-stack:  AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$primary-colour:  #f7fff7;
+$secondary-colour:  #ffcdb2;
+$header-colour: #b07d62;
+
+body {
+    font: 100% $font-stack;
+    background-color: $primary-colour;
+}
+
+h1 {
+    color: $header-colour;
+    text-align: center;
+}
+
+.nav {
+    padding-left: 12px;
+    cursor: pointer;
+    display: flex;
+    color: $secondary-colour;
+}
+
+#topdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 50%;
+    justify-content: space-around;
+    margin-left: 24%;
+}
+
+

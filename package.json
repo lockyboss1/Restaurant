@@ -8,7 +8,13 @@
     "webpack-cli": "^3.3.12",
     "webpack": "^4.44.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "css-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
