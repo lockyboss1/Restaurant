@@ -6,11 +6,13 @@ $header-colour: #b07d62;
 body {
     font: 100% $font-stack;
     background-color: $primary-colour;
+    background-image: url('../images/img1.png');
 }
 
 h1 {
     color: $header-colour;
     text-align: center;
+    padding-top: 20px;
 }
 
 .nav {
@@ -30,4 +32,6 @@ h1 {
     margin-left: 24%;
 }
 
-
+#headerImg {
+    background-image: url('../images/img1.png');
+}

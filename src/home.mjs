@@ -1,5 +1,6 @@
 let container = document.getElementById("content");
-let topdiv = document.createElement('div');     
+let topdiv = document.createElement('div');   
+let imgdiv = document.createElement('div');     
 let div1 = document.createElement('div');       
 let div2 = document.createElement('div');       
 let div3 = document.createElement('div');       
@@ -9,8 +10,16 @@ let nav1 = document.createElement('h3');
 let nav2 = document.createElement('h3');
 let nav3 = document.createElement('h3');
 let nav4 = document.createElement('h3');
+let img = document.createElement("img");
+
+/*Header text*/
+document.title = "Home";
 topdiv.id = 'topdiv';
 h1.textContent = 'MAMA-PUT RESTAURANT';
+
+/*Header image*/
+imgdiv.id = 'headerImg'
+
 
 /*THE NAVBAR */
 div1.id = 'home';
@@ -38,6 +47,8 @@ topdiv.appendChild(div1);
 topdiv.appendChild(div2);
 topdiv.appendChild(div3);
 topdiv.appendChild(div4);
+imgdiv.appendChild(img);
 container.appendChild(topdiv);
+container.appendChild(imgdiv);
 
 
