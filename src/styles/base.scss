@@ -6,7 +6,7 @@ $header-colour: #83c5be;
 
 body {
     font: 100% $primary-font-stack;
-    background-image: url('../images/1.png');
+    /*background-image: url('../background/1.png');*/
     display: flex;
     max-width: 100%;
     overflow-x: hidden;
@@ -36,38 +36,6 @@ h1 {
     margin-left: 24%;
 }
 
-#mainText {
-    padding-top: 70px;
-    color: $secondary-colour;
-    font: 100% $secondary-font-stack;
-    text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
-
-}
-
-#locationdiv {
-    color: $secondary-colour;
-    font: 100% $secondary-font-stack;
-    padding-top: 80px;
-    text-align: center;
-}
-
-#locations {
-    color: $secondary-colour;
-    font: 100% $secondary-font-stack;
-    text-align: center;
-    padding: 20px;
-    max-height: 3.6em;
-    line-height: 1.5em;
-    margin-bottom: 424px;
-}
-
-#locationtext {
-    color: $secondary-colour;
-    font-size: 20px;
-}
-
 #myFooter {
     color: $secondary-colour;
     display: flex;
@@ -78,7 +46,6 @@ h1 {
     width: 100%;
     height: 4rem;
     margin-left: -0.4%;
-    margin-top: 170px;
     font-size: 18px;
     list-style: none; 
     line-height: 60px;

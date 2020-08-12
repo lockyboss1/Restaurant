@@ -1,6 +1,8 @@
 //import {header} from './header.mjs';
 //import {footer} from './footer.mjs';
+import './styles/home.scss';
 export let renderHomePage = () => {
+    document.title = 'Mama Put | Home';
     let container = document.getElementById("content");
 
     let textdiv = document.createElement('div');
@@ -29,7 +31,37 @@ export let renderHomePage = () => {
     var text3 = document.createTextNode(`34, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, United States.`);
     var text4 = document.createTextNode(`69, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, United KIngdom.`);
     
+    let awarddiv = document.createElement('div');
+    awarddiv.id = 'awarddiv';
+    const image = document.createElement('img');
+    image.id = 'awards';
+    image.className = 'awards-images';
+    image.src = 'images/award.png';
+    image.setAttribute("alt", "World Restaurant Award");
+
+    const image1 = document.createElement('img');
+    image1.id = 'awards';
+    image1.className = 'awards-images';
+    image1.src = 'images/award1.png';
+    image1.setAttribute("alt", "World Restaurant Award");
+
+    const image2 = document.createElement('img');
+    image2.id = 'awards';
+    image2.className = 'awards-images';
+    image2.src = 'images/award2.png';
+    image2.setAttribute("alt", "World Restaurant Award");
+
+    const image3 = document.createElement('img');
+    image3.id = 'awards';
+    image3.className = 'awards-images';
+    image3.src = 'images/award3.png';
+    image3.setAttribute("alt", "World Restaurant Award");  
     
+    const image4 = document.createElement('img');
+    image4.id = 'awards';
+    image4.className = 'awards-images';
+    image4.src = 'images/award4.png';
+    image4.setAttribute("alt", "World Restaurant Award");
     
     container.appendChild(textdiv);
     locationdiv.appendChild(locationtext);
@@ -43,5 +75,11 @@ export let renderHomePage = () => {
     locations.appendChild(li3);
     locations.appendChild(li4);
     container.appendChild(locations);
+    awarddiv.appendChild(image);
+    awarddiv.appendChild(image1);
+    awarddiv.appendChild(image4);
+    awarddiv.appendChild(image2);
+    awarddiv.appendChild(image3);
+    container.appendChild(awarddiv);
 }
 renderHomePage();
