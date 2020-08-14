@@ -1,0 +1,46 @@
+@import 'base';
+#mainText {
+    padding-top: 70px;
+    color: $secondary-colour;
+    font: 18px $secondary-font-stack;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+#locationdiv {
+    color: $secondary-colour;
+    font: 18px  $secondary-font-stack;
+    padding-top: 80px;
+    text-align: center;
+}
+
+#locations {
+    color: $secondary-colour;
+    font: 17px $secondary-font-stack;
+    text-align: center;
+    padding: 20px;
+    max-height: 3.6em;
+    line-height: 1.5em;
+    margin-bottom: 424px;
+}
+
+#locationtext {
+    color: $secondary-colour;
+    font-size: 20px;
+}
+
+#awarddiv {
+    margin-top: -22%;
+    margin-left: 12%;
+}
+
+#awards {
+    width: 180px;
+    height: 130px;
+}
+
+.awards-images {
+    padding-right: 50px;
+}
