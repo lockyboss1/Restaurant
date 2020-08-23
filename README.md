@@ -1,3 +1,3 @@
-A Restaurant Page created using JavaScript alone to generate the entire contents of the website!
+A Restaurant Page generated dynamically using JavaScript and SCSS. 
 
-Webpack is used to bundle the codes.
+Webpack is used to bundle the HTML, JavaScript, SCSS and Image files.
