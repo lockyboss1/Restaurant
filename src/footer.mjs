@@ -1,4 +1,6 @@
-export let footer = () => {
+import './styles/base.scss';
+
+export  default function footer() {
     let container = document.getElementById("content");
     var myfooter = document.createElement("footer");
     myfooter.id = "myFooter";

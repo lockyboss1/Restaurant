@@ -1,15 +1,22 @@
 $primary-font-stack:  AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $secondary-font-stack: 'Courier New';
 $primary-colour:  #006d77;
-$secondary-colour:  #ffcdb2;
-$header-colour: #83c5be;
+$secondary-colour: #04395e;
+$header-colour: #70a288;
+$footer-colour: #ffcdb2;
 
 body {
     font: 100% $primary-font-stack;
-    /*background-image: url('../background/1.png');*/
+    background-color: #eff7f6;
     display: flex;
     max-width: 100%;
     overflow-x: hidden;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5908/food.png);
+}
+
+#headerimg {
+    width: 160px;
+    height: 160px;
 }
 
 h1 {
@@ -17,13 +24,14 @@ h1 {
     text-align: center;
     padding-top: 5px;
     font-size: 35px;
+    margin-top: -9%;
 }
 
 .nav {
     cursor: pointer;
     display: flex;
     color: $header-colour;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 #topdiv {
@@ -37,7 +45,7 @@ h1 {
 }
 
 #myFooter {
-    color: $secondary-colour;
+    color: $footer-colour;
     display: flex;
     flex-direction: row;
     background-color: $primary-colour;
@@ -45,7 +53,7 @@ h1 {
     bottom: 0;
     width: 100%;
     height: 4rem;
-    margin-left: -0.4%;
+    margin-left: -0.7%;
     font-size: 18px;
     list-style: none; 
     line-height: 60px;
@@ -59,15 +67,15 @@ h1 {
 
 #home:hover {
     text-decoration: underline;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 #menu:hover {
     text-decoration: underline;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 #reservations:hover {
     text-decoration: underline;
-    opacity: 0.4;
+    opacity: 0.8;
 }

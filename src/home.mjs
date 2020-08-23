@@ -1,9 +1,11 @@
-//import {header} from './header.mjs';
-//import {footer} from './footer.mjs';
+import './header.mjs';
+import './footer.mjs';
 import './styles/home.scss';
-export let renderHomePage = () => {
-    document.title = 'Mama Put | Home';
+
+export default function renderHomePage() {
     let container = document.getElementById("content");
+    let homediv = document.createElement('div');
+    homediv.id = 'homediv';
 
     let textdiv = document.createElement('div');
     textdiv.id = 'mainText';
@@ -25,11 +27,13 @@ export let renderHomePage = () => {
     var li1 = document.createElement("LI");
     var li2 = document.createElement("LI");
     var li3 = document.createElement("LI");
-    var li4 = document.createElement("LI");
-    var text1 = document.createTextNode(`1, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, Nigeria.`);
-    var text2 = document.createTextNode(`23, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, Canada.`);
-    var text3 = document.createTextNode(`34, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, United States.`);
-    var text4 = document.createTextNode(`69, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, United KIngdom.`);
+    var li4 = document.createElement("LI"); 
+    var li5 = document.createElement("LI");
+    var text1 = document.createTextNode(`1, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, Lagos.`);
+    var text2 = document.createTextNode(`23, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, Toronto.`);
+    var text3 = document.createTextNode(`34, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, New York.`);
+    var text4 = document.createTextNode(`69, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, London.`);
+    var text5 = document.createTextNode(`128, Pellentesque tincidunt purus vel tellus feugiat, nec rutrum nisl, Paris.`);
     
     let awarddiv = document.createElement('div');
     awarddiv.id = 'awarddiv';
@@ -63,23 +67,26 @@ export let renderHomePage = () => {
     image4.src = 'images/award4.png';
     image4.setAttribute("alt", "World Restaurant Award");
     
-    container.appendChild(textdiv);
+    container.appendChild(homediv);
+    homediv.appendChild(textdiv);
     locationdiv.appendChild(locationtext);
-    container.appendChild(locationdiv);
+    homediv.appendChild(locationdiv);
     li1.appendChild(text1);
     li2.appendChild(text2);
     li3.appendChild(text3);
     li4.appendChild(text4);
+    li5.appendChild(text5);
     locations.appendChild(li1);
     locations.appendChild(li2);
     locations.appendChild(li3);
     locations.appendChild(li4);
-    container.appendChild(locations);
+    locations.appendChild(li5);
+    homediv.appendChild(locations);
     awarddiv.appendChild(image);
     awarddiv.appendChild(image1);
-    awarddiv.appendChild(image4);
-    awarddiv.appendChild(image2);
     awarddiv.appendChild(image3);
-    container.appendChild(awarddiv);
+    awarddiv.appendChild(image2);
+    awarddiv.appendChild(image4);
+    homediv.appendChild(awarddiv);
 }
 renderHomePage();

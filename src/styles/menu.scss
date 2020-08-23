@@ -1,0 +1,103 @@
+@import 'base';
+$food-category-font: 'Pacifico', cursive;
+
+body {
+    display: grid;
+}
+
+h1 {
+   margin-left: -30%;
+}
+
+#topdiv {
+    margin-top: -4.4%;
+    max-width: 23%;
+    margin-left: 75%;
+}
+
+.nav {
+    font-size: 19px;
+}
+
+h3 {
+    font: 24px $food-category-font;
+    color: $header-colour;
+}
+
+#appetisers, #salads, #deserts {
+    margin-left: 13%;
+}
+
+#appetiserstext {
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+#saladstext {
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+p {
+    margin-top: -1.5%;
+    color: $secondary-colour;
+}
+
+h4 {
+    color: $secondary-colour;
+    font-size: 19px;
+}
+
+.foodPrice {
+    margin-top: -4.1%;
+    margin-left: 33%;
+    font-weight: bolder;
+}
+
+#appetiser5Price {
+    margin-left: 24.2%;
+}
+
+#mains {
+    margin-top: -56%;
+    margin-left: 55%;
+}
+
+#mainstext, #sidestext {
+    margin-left: 10%;
+}
+
+.foodPrice1 {
+    margin-top: -8.7%;
+    margin-left: 60%;
+    font-weight: bolder;
+}
+
+#sides {
+    margin-left: 55%;
+}
+
+#deserts {
+    margin-bottom: 10%;
+    margin-top: -5.7%;
+}
+
+#desertstext {
+    margin-left: 6%;
+}
+
+#kids {
+    margin-left: 55%;
+    margin-top: -25.2%;
+}
+
+.foodPrice2 {
+    margin-top: -7.1%;
+    margin-left: 68%;
+    font-weight: bolder;
+}
+
+.kidstext {
+    color: $secondary-colour;
+    font-size: 17px;
+}
