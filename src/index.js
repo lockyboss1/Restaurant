@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import header from './header.mjs';
 import footer from './footer.mjs'
 import renderHomePage from './home.mjs';
@@ -49,20 +48,4 @@ homeBtn.onclick = function () {
     menuBtn.style.fontSize = '17px';
     reservationBtn.style.fontSize = '17px';
 };
-=======
-import './header.mjs';
-import {renderHomepage} from './home.mjs';
-//import menu from './menu.mjs';
-//import reservations from './reservation.mjs';
-
-/*var menuBtn = document.getElementById("menu");
-menuBtn.addEventListener("click", renderHomepage);
-
-var homeBtn = document.getElementById("home");
-homeBtn.addEventListener("click", renderMenuPage);
-
-var contactBtn = document.getElementById("reservations");
-contactBtn.addEventListener("click", renderReservationPage);*/
-
->>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 
