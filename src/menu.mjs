@@ -1,7 +1,6 @@
 import './header.mjs';
 import './footer.mjs';
 import './styles/menu.scss';
-<<<<<<< HEAD
 
 export default function renderMenuPage() {
     let container = document.getElementById("content");
@@ -389,16 +388,5 @@ export default function renderMenuPage() {
     menudiv.appendChild(sides);
     menudiv.appendChild(deserts);
     menudiv.appendChild(kids);
-=======
-document.title = 'Mama Put | Menu';
-
-export let renderMenuPage = () => {
-    let container = document.getElementById("content");
-
-    let textdiv = document.createElement('div');
-    textdiv.id = 'mainText';
-    
-    container.appendChild(textdiv);
->>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 }
 renderMenuPage();
