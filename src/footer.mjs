@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 import './styles/base.scss';
 
 export  default function footer() {
+=======
+export let footer = () => {
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
     let container = document.getElementById("content");
     var myfooter = document.createElement("footer");
     myfooter.id = "myFooter";

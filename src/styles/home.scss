@@ -1,5 +1,6 @@
 @import 'base';
 #mainText {
+<<<<<<< HEAD
     padding-top: 120px;
     color: $secondary-colour;
     font-size: 17px;
@@ -7,10 +8,20 @@
     padding-left: 150px;
     padding-right: 150px;
     line-height: 2em;
+=======
+    padding-top: 70px;
+    color: $secondary-colour;
+    font: 18px $secondary-font-stack;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 }
 
 #locationdiv {
     color: $secondary-colour;
+<<<<<<< HEAD
     padding-top: 50px;
     text-align: center;
     font-size: 18px;
@@ -23,11 +34,26 @@
     padding: 20px;
     max-height: 3.6em;
     line-height: 2em;
+=======
+    font: 18px  $secondary-font-stack;
+    padding-top: 80px;
+    text-align: center;
+}
+
+#locations {
+    color: $secondary-colour;
+    font: 17px $secondary-font-stack;
+    text-align: center;
+    padding: 20px;
+    max-height: 3.6em;
+    line-height: 1.5em;
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
     margin-bottom: 424px;
 }
 
 #locationtext {
     color: $secondary-colour;
+<<<<<<< HEAD
     font-size: 19px;
     margin-top: 1%;
 }
@@ -40,6 +66,19 @@
 #awards {
     width: 150px;
     height: 110px;
+=======
+    font-size: 20px;
+}
+
+#awarddiv {
+    margin-top: -22%;
+    margin-left: 12%;
+}
+
+#awards {
+    width: 180px;
+    height: 130px;
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 }
 
 .awards-images {

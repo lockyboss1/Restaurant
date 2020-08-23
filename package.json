@@ -5,7 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "lodash": "^4.17.19",
+<<<<<<< HEAD
     "webpack-cli": "^3.3.12",
+=======
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
     "webpack": "^4.44.1"
   },
   "devDependencies": {

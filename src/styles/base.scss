@@ -14,24 +14,34 @@ body {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5908/food.png);
 }
 
+<<<<<<< HEAD
 #headerimg {
     width: 160px;
     height: 160px;
 }
 
+=======
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 h1 {
     color: $header-colour;
     text-align: center;
     padding-top: 5px;
     font-size: 35px;
+<<<<<<< HEAD
     margin-top: -9%;
+=======
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 }
 
 .nav {
     cursor: pointer;
     display: flex;
     color: $header-colour;
+<<<<<<< HEAD
     font-size: 17px;
+=======
+    font-size: 16px;
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 }
 
 #topdiv {
@@ -67,15 +77,27 @@ h1 {
 
 #home:hover {
     text-decoration: underline;
+<<<<<<< HEAD
     opacity: 0.8;
+=======
+    opacity: 0.4;
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 }
 
 #menu:hover {
     text-decoration: underline;
+<<<<<<< HEAD
     opacity: 0.8;
+=======
+    opacity: 0.4;
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 }
 
 #reservations:hover {
     text-decoration: underline;
+<<<<<<< HEAD
     opacity: 0.8;
+=======
+    opacity: 0.4;
+>>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 }
