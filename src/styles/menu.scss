@@ -1,5 +1,4 @@
 @import 'base';
-<<<<<<< HEAD
 $food-category-font: 'Pacifico', cursive;
 
 body {
@@ -101,21 +100,4 @@ h4 {
 .kidstext {
     color: $secondary-colour;
     font-size: 17px;
-=======
-
-h2 {
-    left: 50%;
-    top: 50%;
-    transform: translate(132%, -91%);
-    color: $secondary-colour;
-    font-size: 25px;
-}
-
-#main-course {
-    border: 2px solid gray;
-    border-radius: 5px;
-    box-sizing: border-box;
-    width: 100%;
-    margin-left: 80%;
->>>>>>> f18a9dbcaf58333f29161cfa912f4f4e913c73fa
 }
