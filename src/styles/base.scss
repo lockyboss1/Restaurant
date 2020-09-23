@@ -79,3 +79,168 @@ h1 {
     text-decoration: underline;
     opacity: 0.8;
 }
+
+
+/************************
+*******Media Queries*****
+*************************/
+
+@media screen and (min-width: 800px) and (max-width: 1170px) {
+    h1 {
+        transform: translate(14%,-20%);
+        margin-bottom: 5%;
+    }
+    #home {
+        margin-top: 0%;
+        margin-left: -300%;
+    }
+    #menu {
+        margin-left: -70%;
+    }
+    #reservations {
+        margin-left: -70%;
+    }
+    #myFooter {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    #myFooter {
+        padding-left: 13%;
+        margin-left: -4%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    #headerimg {
+        transform: translate(180%,-8%);
+    }
+    h1 {
+        transform: translate(9%,80%);
+        margin-bottom: 13%;
+    }
+    #home {
+        margin-top: 0%;
+        margin-left: -340%;
+    }
+    #menu {
+        margin-left: -70%;
+    }
+    #reservations {
+        margin-left: -70%;
+    }
+    #myFooter {
+        padding-left: 11%;
+        margin-left: -4%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 705px) {
+    #myFooter {
+        line-height: 28px;
+        padding-left: 13%;
+        margin-left: -4%;
+        padding-left: 7%;
+        font-size: 15px;
+    }
+    #headerimg {
+        transform: translate(110%,-8%);
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    h1 {
+        transform: translate(29%,-70%);
+    }
+    #home {
+        margin-top: 0%;
+        margin-left: -130%;
+    }
+    #menu {
+        margin-left: -70%;
+    }
+    #reservations {
+        margin-left: -70%;
+    }
+    #headerimg {
+        transform: translate(10%,8%);
+    }
+    #myFooter {
+        padding-left: 25%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html, body {
+        margin:0;
+        padding:0;
+        height:100%;
+        overflow-x: hidden; 
+    }
+    #headerimg {
+        width: 100px;
+        height: 100px;
+        transform: translate(150%,-8%);
+    }
+    h1 {
+        font-size: 20px;
+        transform: translate(12%,50%);
+        margin-bottom: 10%;
+    }
+    #home {
+        margin-top: 0%;
+        margin-left: -290%;
+    }
+    #myFooter {
+        height: 5.5rem;
+        line-height: 28px;
+        padding-left: 5%; 
+        font-size: 15px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html, body {
+        overflow-x: hidden; 
+    }
+    #headerimg {
+        width: 100px;
+        height: 100px;
+        transform: translate(130%,0%);
+    }
+    h1 {
+        font-size: 20px;
+        transform: translate(9%,50%);
+        margin-bottom: 10%;
+    }
+    #home {
+        margin-top: 0%;
+        margin-left: -340%;
+    }
+    #menu {
+        margin-left: -70%;
+    }
+    #reservations {
+        margin-left: -70%;
+    }
+    .nav {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #headerimg {
+        transform: translate(105%,0%);
+    }
+    h1 {
+        font-size: 19px;
+        transform: translate(11%,50%);
+        position: relative;
+    }
+}

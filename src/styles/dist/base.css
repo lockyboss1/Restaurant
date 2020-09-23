@@ -1,0 +1,198 @@
+body {
+  font: 100% AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #eff7f6;
+  display: flex;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5908/food.png);
+}
+
+#headerimg {
+  width: 160px;
+  height: 160px;
+}
+
+h1 {
+  color: #70a288;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 35px;
+  margin-top: -9%;
+}
+
+.nav {
+  cursor: pointer;
+  display: flex;
+  color: #70a288;
+  font-size: 17px;
+}
+
+#topdiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 50%;
+  justify-content: space-around;
+  margin-left: 24%;
+}
+
+#myFooter {
+  color: #ffcdb2;
+  display: flex;
+  flex-direction: row;
+  background-color: #006d77;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  margin-left: -0.7%;
+  font-size: 18px;
+  list-style: none;
+  line-height: 60px;
+  padding-left: 25%;
+}
+
+#phone, #email, #twitter, #facebook {
+  padding-right: 40px;
+  padding-left: 10px;
+}
+
+#home:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+#menu:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+#reservations:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/************************
+*******Media Queries*****
+*************************/
+@media screen and (min-width: 800px) and (max-width: 1170px) {
+  h1 {
+    transform: translate(14%, -20%);
+    margin-bottom: 5%;
+  }
+
+  #home {
+    margin-top: 0%;
+    margin-left: -300%;
+  }
+
+  #menu {
+    margin-left: -70%;
+  }
+
+  #reservations {
+    margin-left: -70%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  h1 {
+    transform: translate(29%, -70%);
+  }
+
+  #home {
+    margin-top: 0%;
+    margin-left: -130%;
+  }
+
+  #menu {
+    margin-left: -70%;
+  }
+
+  #reservations {
+    margin-left: -70%;
+  }
+
+  #headerimg {
+    transform: translate(10%, 8%);
+  }
+}
+@media screen and (max-width: 500px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  #headerimg {
+    width: 100px;
+    height: 100px;
+    transform: translate(150%, -8%);
+  }
+
+  h1 {
+    font-size: 20px;
+    transform: translate(12%, 50%);
+    margin-bottom: 10%;
+  }
+
+  #home {
+    margin-top: 0%;
+    margin-left: -290%;
+  }
+
+  #myFooter {
+    height: 5.5rem;
+    line-height: 28px;
+    padding-left: 5%;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 400px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  #headerimg {
+    width: 100px;
+    height: 100px;
+    transform: translate(130%, 0%);
+  }
+
+  h1 {
+    font-size: 20px;
+    transform: translate(9%, 50%);
+    margin-bottom: 10%;
+  }
+
+  #home {
+    margin-top: 0%;
+    margin-left: -340%;
+  }
+
+  #menu {
+    margin-left: -70%;
+  }
+
+  #reservations {
+    margin-left: -70%;
+  }
+
+  .nav {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 350px) {
+  #headerimg {
+    transform: translate(105%, 0%);
+  }
+
+  h1 {
+    font-size: 19px;
+    transform: translate(11%, 50%);
+    position: relative;
+  }
+}

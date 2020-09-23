@@ -45,3 +45,163 @@
 .awards-images {
     padding-right: 50px;
 }
+
+/************************
+*******Media Queries*****
+*************************/
+@media screen and (max-width: 1400px) {
+    #awarddiv {
+        margin-top: -20%;
+    }
+}
+
+@media screen and (max-width: 1208px) {
+    #awarddiv {
+        margin-top: -25%;
+    }
+    #awards {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    #awarddiv {
+        margin-top: -25%;
+    }
+    #awards {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    #awarddiv {
+        margin-top: -25%;
+    }
+    #awards {
+        width: 100px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    #awarddiv {
+        margin-top: -30%;
+        margin-bottom: 70px;
+    }
+    #awards {
+        width: 100px;
+        height: 90px;
+    }
+}
+
+@media only screen 
+  and (min-width: 641px) 
+  and (max-width: 770px) {
+    #awarddiv {
+        margin-top: -35%;
+        margin-bottom: 90px;
+    }
+    .awards-images {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen  and (min-width: 501px) and (max-width: 640px) {
+    #awarddiv {
+        margin-top: -25%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 70px;
+    }
+    .awards-images {
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #mainText {
+        margin-top: 0%;
+        padding-left: 310px;
+        padding-right: 0px;
+    }
+    #locations {
+        padding-left: 310px;
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+    #locationtext {
+        margin-left: 42%;
+    }
+    #awarddiv {
+        margin-top: -10%;
+        margin-left: 45%;
+        margin-bottom: 10%;
+    }
+    .awards-images {
+        padding-bottom: 10px;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    #mainText {
+        margin-top: -15%;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #locations {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+    #locationtext {
+        margin-bottom: -3%;
+    }
+    #awards {
+        widows: 80px;
+        height: 90px;
+    }
+    #awarddiv {
+        margin-top: -25%;
+        margin-left: 15%;
+        margin-bottom: 30%;
+    }
+    .awards-images {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #awards {
+        width: 100px;
+        height: 90px;
+    }
+    #awarddiv {
+        margin-top: 0%;
+    }
+    #locations {
+        margin-bottom: 120%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #awards {
+        width: 95px;
+        height: 80px;
+    }
+    #locations {
+        margin-bottom: 125%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    #awards {
+        width: 75px;
+        height: 80px;
+    }
+    #locations {
+        margin-bottom: 185%;
+    }
+}

@@ -101,3 +101,80 @@ h4 {
     color: $secondary-colour;
     font-size: 17px;
 }
+
+/************************
+*******Media Queries*****
+*************************/
+@media screen and (max-width: 1200px) {
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #mains {
+        transform: translate(60%, -61%);
+    }
+    #sides {
+        transform: translate(60%, -140%);
+    }
+    #deserts {
+        transform: translate(0%, -201%);
+    }
+    #kids {
+        transform: translate(-93%, -200%);
+    }
+    .foodPrice {
+        margin-top: -7.3%;
+        margin-left: 45%;
+    }
+    .foodPrice1  {
+        margin-top: -14.3%;
+        margin-left: 95%;
+    }
+    #myFooter {
+        margin-top: -13%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    #appetisers {
+        margin-left: 9%;
+    }
+    #salads {
+        margin-top: 6%;
+        margin-left: 9%;
+    }
+    #mains {
+        margin-top: 10%;
+        margin-left: 9%;
+    }
+    #sides {
+        margin-left: 9%;
+    }
+    #deserts {
+        margin-top: 10%;
+        margin-left: 9%;
+    }
+    #kids {
+        margin-top: 10%;
+        margin-left: 9%;
+        margin-bottom: 35%;
+    }
+    .foodPrice, .foodPrice1 {
+        margin-top: -13.1%;
+        margin-left: 75%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    h4 {
+        font-size: 15px;
+    }
+    .foodPrice, .foodPrice1 {
+        margin-top: -14.1%;
+        margin-left: 75%;
+    }
+}

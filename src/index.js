@@ -12,11 +12,10 @@ let menudiv = document.getElementById("menudiv");
 let reservationdiv = document.getElementById("reservationdiv");
 
 window.onload = function () {
-    homediv.style.display = 'block';
-    menudiv.style.display = 'none';
+    homediv.style.display = 'none';
+    menudiv.style.display = 'block';
     reservationdiv.style.display = 'none';
     document.title = 'Mama Put | Home';
-    homeBtn.style.fontSize = '22px';
 };
 
 menuBtn.onclick = function () {
@@ -24,9 +23,6 @@ menuBtn.onclick = function () {
     homediv.style.display = 'none';
     reservationdiv.style.display = 'none';
     document.title = 'Mama Put | Menu';
-    menuBtn.style.fontSize = '22px';
-    reservationBtn.style.fontSize = '17px';
-    homeBtn.style.fontSize = '17px';
 };
 
 reservationBtn.onclick = function () {
@@ -34,9 +30,6 @@ reservationBtn.onclick = function () {
     homediv.style.display = 'none';
     menudiv.style.display = 'none';
     document.title = 'Mama Put | Reservations';
-    reservationBtn.style.fontSize = '22px';
-    homeBtn.style.fontSize = '17px';
-    menuBtn.style.fontSize = '17px';
 };
 
 homeBtn.onclick = function () {
@@ -44,8 +37,5 @@ homeBtn.onclick = function () {
     menudiv.style.display = 'none';
     reservationdiv.style.display = 'none';
     document.title = 'Mama Put | Home';
-    homeBtn.style.fontSize = '22px';
-    menuBtn.style.fontSize = '17px';
-    reservationBtn.style.fontSize = '17px';
 };
 
